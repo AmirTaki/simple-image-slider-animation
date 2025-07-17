@@ -1,19 +1,21 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background: #364b63;
     box-sizing: border-box;
 }
+body{
+    background: #364b63;  
+}
 
-.center {
-    
-    position: absolute;
-
-    background-color: red;
-    /* width: 100px;
-    height: 100px; */
-    left:50%;
-    transform: translate(-50%, 50%);
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    height: 100vh;   
+    width: 100%;
+    margin: auto;
+    position: relative;;
 }
 
 .slider {
