@@ -25,18 +25,24 @@ body{
 
 @keyframes animate {
     20%{
-
+        background: url(./images/bg2.jpg);
+        background-size: cover;
     }
     40%{
-
+        background: url('./images/bg3.jpg');
+        background-size: cover;
     }
     60%{
-        
+        background-size: cover;
+        background: url("./images/bg4.jpg");
     }
     80%{
+        background-size: cover;
+        background:url('./images/bg5.jpg');
 
     }
     100%{
-        
+        background-size: cover;
+        background: url('./images/bg5.jpg');
     }
 }
