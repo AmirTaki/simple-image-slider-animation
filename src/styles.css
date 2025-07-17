@@ -20,4 +20,23 @@ body{
     height: 540px;
     width: 800px;
     box-shadow: 0 5px 8px rgba(0, 0, 0, .3);
+    animation:  animate 20s infinite;
+}
+
+@keyframes animate {
+    20%{
+
+    }
+    40%{
+
+    }
+    60%{
+        
+    }
+    80%{
+
+    }
+    100%{
+        
+    }
 }
